@@ -1,5 +1,5 @@
 ---
-title: "Aides Drug"
+title: "Everyone"
 author: "Monique Powell"
 date: "Nov 19, 2019"
 output: html_document
@@ -81,7 +81,11 @@ fisher.test(table1)
 ```
 
 
-The  P-Value =  2.2e-16, which is lower than the conventional threshold of 0.05, meaning we can reject the null hypothesis that the treatment seem to be working, because among those who took placebo about 41% got Aides, whereas those who didn't take the treatment about 59% got Aides.
+$H_O$: There is no relationship between getting Aides and taking avastivironal.
+
+$H_1$: There is a relationship between getting Aides and taking avastivironal.
+
+The  P-Value = 2.333e-07, which is lower than the conventional threshold of 0.05, meaning we can reject the null hypothesis that the treatment seem to be working, because among those who took placebo about 41% got Aides, whereas those who didn't take the treatment about 59% got Aides.
 
 
 # Discussion and Conclusion
@@ -89,3 +93,6 @@ The  P-Value =  2.2e-16, which is lower than the conventional threshold of 0.05,
 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+The graphical result provided the effectiviness of the new aid drug (abacavirnol)on the general population; the visual distinction between the treatment and injected suggested that those who took placebo recieved Aides full less then those who didn't take the treatment. The numerical result provided the effecyiviness of abacavirnol on the general population; which provided the percentage breakdown that revealed that among those who took placebo about 41% got Aides, whereas those who didn't take the treatment about 59% got Aides, which suggest that the drug is effective for those who used the drug. The chi-square test of independence was used for an inferential result that provided a p-value such as 2.333e-07 which points out whether or not if there any evidence; which in this case it appears that there's a relationship between getting Aides and taking avastivironal, because the P-Value = 2.333e-07, which is lower than the conventional threshold of 0.05, meaning we can reject the null hypothesis that the treatment seem to be working.  The sample estimates odds ratio equals 0.7164774 compares to 1:1 ratio for those who use placebo.
